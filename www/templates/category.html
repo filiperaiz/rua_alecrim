@@ -1,0 +1,143 @@
+<ion-view view-title='Roupas' animation="slide-left-right">
+
+  <ion-nav-buttons side="left">
+    <a class="button button-clear" ui-sref="tab.timeline">
+      <img src="img/icons/icon-backspace.svg" height="20" style="margin-top:4px;" />
+    </a>
+  </ion-nav-buttons>
+
+  <ion-content has-header="true" header-shrink scroll-event-interval="5" style="margin-bottom:43px;">
+
+    <div class="main-list">
+
+      <div class="list">
+
+        <a ui-sref="profile" ion-affix data-affix-within-parent-with-class="list">
+
+          <div class="item item-avatar">
+            <img src="img/avatar4.png" width="55" height="55">
+            <h2 class="item-name">
+              Os mimos da Lis
+            </h2>
+            <small class="item-location">
+              <img src="img/icons/icon-pin.svg" height="12" />
+              Teresina, PI
+            </small>
+            <span class="item-date">
+              <i class="ion-android-time"></i>
+              12m
+            </span>
+          </div>
+
+        </a>
+
+        <div class="item item-body">
+
+          <div class="slideshow">
+
+            <span class="label-product">NUNCA USADO</span>
+
+            <slick dots="true"  arrows="false" infinite="false" speed="600" slides-to-show="1" touch-move="true" slides-to-scroll="1">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+              <img class="full-image" src="img/moises.jpg" height="250">
+            </slick>
+
+          </div>
+
+           <div class="item-interactions-header">
+
+            <a class="like liking" href="#">
+              <i class="icon ion-ios-heart"></i>
+            </a>
+
+            <!-- <a class="comment" ng-click="showActionsheetMessage()"> -->
+            <a class="comment" ng-click="openModal(1)">
+              <i class="ion-ios-chatbubble-outline"></i>
+            </a>
+
+            <a class="more" ng-click="showActionsheet()">
+              <i class="ion-ios-more-outline"></i>
+            </a>
+
+            <a class="button-buy" href="" title="">
+              <span>EU QUERO</span>
+            </a>
+
+            <a class="button-offer" href="" title="">
+              <span>FAZER OFERTA</span>
+            </a>
+
+          </div>
+
+          <div class="padding">
+            <div class="item-interactions">
+
+            <div class="likes">
+                <span>
+                  <i class="ion-ios-heart"></i>
+                </span>
+                <a href="#" class="subdued" ng-click="openModal(2)">Você e 12 pessoas curtiram</a>
+            </div>
+
+            <div class="comments">
+
+              <span>
+                <div class="description">
+                  Descrição do produto
+                </div>
+              </span>
+
+              <div class="item no-border">
+                <a href="#" class="subdued">Giana</a> Qual o menor preço?
+              </div>
+
+              <div class="item no-border">
+                <a href="#" class="subdued">Jeovanni</a> Gostei, frete é grátis?? :D
+              </div>
+
+              <div class="item no-border">
+                <a href="#" class="subdued">Priscilla</a> Que linda, nam.
+              </div>
+
+              <div class="add-comment">
+                <a href="#" title="" ng-click="openModal(1)">Adicionar comentário</a>
+              </div>
+
+            </div>
+
+            <span class="item-selling">
+              <img src="img/icons/icon-sold.svg" height="16" />
+              Já foi vendido
+            </span>
+
+            <strong class="item-mark">
+              <img src="img/icons/icon-mark.svg" height="16" />
+              <span>Colcci</span>
+            </strong>
+
+            <strong class="item-size">
+              <img src="img/icons/icon-size.svg" height="18" />
+              <span>Até 6 meses</span>
+            </strong>
+
+            <strong class="item-price">
+              <img src="img/icons/icon-money.svg" height="20" />
+              <span>120,00</span>
+            </strong>
+
+          </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

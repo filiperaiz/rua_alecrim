@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="App-(Flow)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Product" sketch:type="MSArtboardGroup" transform="translate(-582.000000, -67.000000)" fill="#FFFFFF">
+            <path d="M611.844444,84 L611.844444,96.8444444 L586.155556,96.8444444 L586.155556,71.1555556 L599,71.1555556 L599,67 L582,67 L582,101 L616,101 L616,84 L611.844444,84 L611.844444,84 Z M603.155556,67 L603.155556,71.1555556 L608.444444,71.1555556 L598.244444,81.3555556 L601.644444,84.7555556 L611.844444,74.5555556 L611.844444,79.8444444 L616,79.8444444 L616,67 L603.155556,67 L603.155556,67 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

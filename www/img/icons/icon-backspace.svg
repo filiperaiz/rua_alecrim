@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>Group Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="App-(Flow)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Profile" sketch:type="MSArtboardGroup" transform="translate(-31.000000, -65.000000)" fill="#FFFFFF">
+            <g id="Group-Copy-2" sketch:type="MSLayerGroup" transform="translate(47.577778, 83.422222) rotate(-90.000000) translate(-47.577778, -83.422222) translate(28.577778, 63.422222)">
+                <g id="Group" transform="translate(0.000000, 1.000000)" sketch:type="MSShapeGroup">
+                    <g transform="translate(19.500000, 19.844444) rotate(180.000000) translate(-19.500000, -19.844444) translate(1.000000, 0.844444)" id="Rectangle-path">
+                        <g transform="translate(16.888889, 0.844444)">
+                            <rect x="0" y="0" width="3.37777778" height="33.7777778"></rect>
+                        </g>
+                        <g transform="translate(18.577778, 19.049182) rotate(45.000000) translate(-18.577778, -19.049182) translate(5.577778, 6.049182)">
+                            <rect x="1.42108547e-13" y="21.9555556" width="25.3333333" height="3.37777778"></rect>
+                            <rect x="21.9555556" y="1.66977543e-13" width="3.37777778" height="25.3333333"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

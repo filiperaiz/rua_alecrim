@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="52px" height="46px" viewBox="0 0 52 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>profile9</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="App-(Flow)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Activity" sketch:type="MSArtboardGroup" transform="translate(-549.000000, -1063.000000)" fill="#FFFFFF">
+            <g id="profile9" sketch:type="MSLayerGroup" transform="translate(549.000000, 1063.000000)">
+                <path d="M12.9999756,13.3699043 C12.9999756,20.4930914 18.8203393,26.2675373 25.9999512,26.2675373 C33.1796607,26.2675373 39.0000244,20.4929946 39.0000244,13.3699043 C39.0000244,6.24681405 33.1797582,0.472271388 26.0000488,0.472271388 C18.8203393,0.472174655 12.9999756,6.24671732 12.9999756,13.3699043 L12.9999756,13.3699043 Z M39.0000244,29.4919213 L12.9999756,29.4919213 C5.82036364,29.4919213 0,35.266464 0,42.389651 L0,45.6140351 L0.409597756,45.6140351 L51.5904022,45.6140351 L52,45.6140351 L52,42.389651 C52,35.266464 46.1796364,29.4919213 39.0000244,29.4919213 L39.0000244,29.4919213 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

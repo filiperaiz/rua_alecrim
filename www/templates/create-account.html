@@ -1,0 +1,48 @@
+<ion-modal-view>
+   <header class="header-login">
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeCreateAccount()">
+        <img src="img/icons/icon-close-gray.svg" height="14" alt="Timeline" title="Timeline" style="margin:8px" />
+      </button>
+    </div>
+    <h1 class="title">Novo usuário</h1>
+  </header>
+  <ion-content class="create-account" scroll="false">
+
+<!--     <div class="add-photo">
+      <a href="#" title="" ng-click="uploadPhoto()">
+        <img src="img/icons/icon-uploadphoto.svg" height="42" />
+        <span>Carregar uma imagem</span>
+      </a>
+    </div>
+ -->
+    <div class="list">
+      <strong class="title-list">
+        Informações básicas
+      </strong>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Qual seu nome?</span>
+        <input type="text" placeholder="João, Maria...">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">E o seu e-mail?</span>
+        <input type="text" placeholder="exemplo@email.com">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Digite uma senha</span>
+        <input type="text" placeholder="......">
+      </label>
+
+       <div class="slide-buttons">
+
+         <button class="button button-clear button-product" ng-click="openScreenSell()">
+            <i class="icon ion-ios-checkmark-empty"></i>
+          </button>
+
+        </div>
+
+    </div>
+
+
+  </ion-content>
+</ion-modal-view>

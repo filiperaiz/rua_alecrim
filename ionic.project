@@ -1,0 +1,12 @@
+{
+  "name": "app-alecrim",
+  "app_id": "1f1503a4",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

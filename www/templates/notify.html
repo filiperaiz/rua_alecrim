@@ -1,0 +1,28 @@
+<ion-view view-title="Notificações">
+
+  <ion-nav-buttons side="left">
+    <a class="button button-clear" ui-sref="tab.account">
+      <img src="img/icons/icon-backspace.svg" height="20" style="margin-top:4px;" />
+    </a>
+  </ion-nav-buttons>
+
+  <ion-content>
+    <ion-list class="notify">
+
+          <ion-item class="item-avatar" href="#/tab/notify/{{notify.id}}" ng-repeat="notify in notifys">
+            <img ng-src="{{ notify.image }}">
+            <h2>{{ notify.name }}</h2>
+            <p>{{ notify.notify }}</p>
+
+            <small class="notify-hour">{{ notify.dateNow }}</small>
+
+            <ion-option-button class="button-assertive btn-del" ng-click="remove(notify)">
+            Delete
+          </ion-option-button>
+
+          </ion>
+
+
+    </ion-list>
+  </ion-content>
+</ion-view>

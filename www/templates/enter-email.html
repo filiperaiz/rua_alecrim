@@ -1,0 +1,46 @@
+<ion-modal-view>
+  <header class="header-login">
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeEnterEmail()">
+        <img src="img/icons/icon-close-gray.svg" height="14" alt="Timeline" title="Timeline" style="margin:8px" />
+      </button>
+    </div>
+    <h1 class="title">Entrar usando e-mail</h1>
+  </header>
+  <ion-content class="log-in" scroll="false">
+
+
+     <div class="list" style="padding-top:62px;">
+      <strong class="title-list">
+        Informações básicas
+      </strong>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Qual o seu email?</span>
+        <input type="text" placeholder="exemplo@email.com">
+      </label>
+      <label class="item item-input item-stacked-label">
+        <span class="input-label">Digite sua senha</span>
+        <input type="text" placeholder="......">
+      </label>
+
+
+      <a href="#" class="recovery-password">
+        <i class="ion-ios-help-outline"></i>
+        Esqueci minha senha
+      </a>
+
+        <div class="slide-buttons">
+
+         <a class="button button-clear button-product" ng-click="startLoginApp()">
+            <i class="icon ion-ios-checkmark-empty"></i>
+          </a>
+
+        </div>
+
+    </div>
+
+
+
+
+  </ion-content>
+</ion-modal-view>

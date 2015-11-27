@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Rua Alecrim App</title>
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <script src="lib/jquery/jquery.1.11.2.min.js"></script>
+
+    <script src="lib/scripts/slick/0-slick.js"></script>
+    <script src="lib/scripts/slick/1-slick-angular.js"></script>
+
+    <script src="lib/ionic-ion-header-shrink/ionic.headerShrink.js"></script>
+    <script src="lib/scripts/ion-affix.js"></script>
+
+    <script>
+        WebFontConfig = {
+          google: { families: [ 'Roboto:400,300,500,700,900:latin' ] }
+        };
+        (function() {
+          var wf = document.createElement('script');
+          wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+            '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          wf.type = 'text/javascript';
+          wf.async = 'true';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(wf, s);
+        })();
+    </script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+
+  </head>
+  <body ng-app="starter" ng-controller="AppCtrl">
+   <ion-side-menus>
+
+      <ion-pane ion-side-menu-content="" ng-controller="NavCtrl" drag-content="false">
+         <ion-nav-bar class="bar-light">
+          </ion-nav-bar>
+          <ion-nav-view animation="slide-left-right" hide-back-button="true"></ion-nav-view>
+      </ion-pane>
+
+      <ion-side-menu side="left">
+          <header class="bar bar-header header-login">
+              <div class="title">
+                <a ui-sref="tab.timeline">
+                <img src="img/marca.png" width="180">
+                </a>
+              </div>
+          </header>
+          <ion-content has-header="true">
+
+            <div class="list list-category">
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-acessorios.svg" width="65" height="65">
+                </div>
+                <h2>Acess&#xF3;rios</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-alimentacao.svg" width="65" height="65">
+                </div>
+                <h2>Alimenta&#xE7;&#xE3;o</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-banhoehigiene.svg" width="65" height="65">
+                </div>
+                <h2>Banho &amp; Higiene</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-brinquedos.svg" width="65" height="65">
+                </div>
+                <h2>Brinquedos &amp; Livros</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-camaedecoracao.svg" width="65" height="65">
+                </div>
+                <h2>Cama &amp; Decora&#xE7;&#xE3;o</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-calcados.svg" width="65" height="65">
+                </div>
+                <h2>Cal&#xE7;ados</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-carrinhoecia.svg" width="65" height="65">
+                </div>
+                <h2>Carrinho &amp; Cia</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-camaedecoracao.svg" width="65" height="65">
+                </div>
+                <h2>Cama &amp; Decora&#xE7;&#xE3;o</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+              <a class="item item-avatar" ui-sref="tab.category" menu-close="">
+                <div class="icon-item">
+                  <img src="img/icons/icon-festas.svg" width="65" height="65">
+                </div>
+                <h2>Festas</h2>
+                <p>Back off, man. I&apos;m a scientist.</p>
+              </a>
+
+
+          </div>
+
+          </ion-content>
+      </ion-side-menu>
+
+      <ion-side-menu side="right">
+          <ion-content has-header="true" ng-controller="NavCtrl">
+
+            <div class="list menu-config">
+
+               <div class="item-divider item-avatar">
+                  <img src="/img/avatar5.png" width="40" height="40">
+                  J&#xFA;lia &amp; Eu
+                </div>
+
+
+              <a class="item item-icon-left" href="#" menu-close="" ng-click="openMessage()">
+                <i class="icon ion-chatbubbles"></i>
+                Mensagens Privadas
+                <span class="badge badge-assertive">0</span>
+              </a>
+
+              <a class="item item-icon-left item-icon-right" ui-sref="tab.notify" menu-close="">
+                <i class="icon ion-android-notifications"></i>
+                Notifica&#xE7;&#xF5;es
+                <span class="badge badge-balanced">4</span>
+              </a>
+
+              <div class="item item-divider">
+                Minha loja
+              </div>
+
+              <a class="item item-icon-left" href="#">
+                <img src="img/icons/icon-vendidos.svg" height="28" alt="Timeline" title="Timeline">
+                Vendidos
+              </a>
+
+             <a class="item item-icon-left" href="#">
+                <img src="img/icons/icon-vendendo.svg" height="28" alt="Timeline" title="Timeline">
+                Comprados
+              </a>
+
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-bag"></i>
+                Promo&#xE7;&#xF5;es
+              </a>
+
+              <div class="item item-divider">
+                Minha conta
+              </div>
+
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-edit"></i>
+                Editar perfil
+              </a>
+
+              <!-- <a class="item item-icon-left" href="#">
+                <i class="icon ion-android-person-add"></i>
+                Convidar amigos
+              </a> -->
+
+              <a class="item item-icon-left" ui-sref="login" menu-close="">
+                <i class="icon ion-log-out"></i>
+                Log out
+              </a>
+
+            <!--   <div class="item item-divider">
+                Suporte
+              </div>
+
+              <a class="item item-icon-left" href="#">
+                <i class="icon ion-help-circled"></i>
+                Ajuda
+              </a>
+ -->
+
+            </div>
+
+          </ion-content>
+      </ion-side-menu>
+
+  </ion-side-menus>
+
+  </body>
+</html>
